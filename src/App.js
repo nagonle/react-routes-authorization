@@ -28,7 +28,7 @@ function App() {
      <Routes>
       <Route path="/" element={<Layout />}>
         {/* public routes */}
-        <Route path="/" element={<Landing />} />
+        <Route index element={<Landing />} />
 
         <Route path="login" element={<Login />} />
 
